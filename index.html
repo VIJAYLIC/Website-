@@ -5,16 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vijay LIC Advisor | 9096659788</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #f0f4f8; color: #333; }
-        header { background: #00529b; color: white; padding: 25px; text-align: center; border-bottom: 6px solid #ffcb05; }
-        .hero { position: relative; width: 100%; height: 200px; background-image: url('https://raw.githubusercontent.com/vijaylic/Website-/main/lic-plan.jpg'); /* Image Name Here */ background-size: cover; background-position: center; }
-        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); display: flex; align-items: center; justify-content: center; }
+        body { font-family: 'Arial', sans-serif; margin: 0; background: #f0f4f8; color: #333; }
+        header { background: #00529b; color: white; padding: 20px; text-align: center; border-bottom: 5px solid #ffcb05; }
+        /* Photo fixing CSS */
+        .hero-banner { 
+            width: 100%; 
+            height: 200px; 
+            background: url('https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=800&q=80') center center; 
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero-text { background: rgba(0,0,0,0.5); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; font-size: 1.5em; }
         .container { padding: 15px; max-width: 600px; margin: auto; }
-        .plan-box { background: white; margin-bottom: 25px; padding: 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: left; }
-        h2 { color: #00529b; margin-top: 0; }
-        .benefit-list { margin: 10px 0; color: #555; }
-        .contact-section { text-align: center; background: #00529b; color: white; padding: 30px; border-radius: 15px; margin-top: 20px; }
-        .btn { background: #25d366; color: white; padding: 15px 30px; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 1.2em; display: block; margin: 15px 0; text-align: center; }
+        .plan-box { background: white; margin-bottom: 20px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border-left: 8px solid #00529b; }
+        h2 { color: #00529b; margin-top: 0; font-size: 1.3em; }
+        .benefit { color: #2e7d32; font-weight: bold; font-size: 0.9em; }
+        .btn { background: #25d366; color: white; padding: 15px; text-decoration: none; display: block; text-align: center; border-radius: 50px; font-weight: bold; margin-top: 15px; }
     </style>
 </head>
 <body>
@@ -24,35 +32,28 @@
     <p>Authorized Agent: <b>9096659788</b></p>
 </header>
 
-<div class="hero">
-    <div class="hero-overlay">
-        <h2 style="color:white; font-size: 2em; text-align: center;">Best LIC Plans For You</h2>
-    </div>
+<div class="hero-banner">
+    <div class="hero-text">Best LIC Plans For You</div>
 </div>
 
 <div class="container">
-    
     <div class="plan-box">
         <h2>💰 Jeevan Utsav Plan</h2>
         <p>10% Guaranteed Income for Lifetime.</p>
-        <ul class="benefit-list">✓ Life Cover | ✓ Tax Benefit | ✓ Bonus</ul>
+        <p class="benefit">✓ Life Cover | ✓ Tax Benefit | ✓ Bonus</p>
     </div>
 
     <div class="plan-box">
         <h2>🎓 Kanyadan Policy</h2>
         <p>Ensure Daughter's Education & Marriage.</p>
-        <ul class="benefit-list">✓ Risk Cover | ✓ Tax Free Maturity | ✓ Low Premium</ul>
+        <p class="benefit">✓ Protection | ✓ Guaranteed Fund</p>
     </div>
 
-    <div class="contact-section">
-        <h3>Contact for Free Consultation</h3>
-        <p class="phone-num">Call: 9096659788</p>
-        <a href="https://wa.me/919096659788?text=Namaste, mujhe LIC plan ki jankari chahiye" class="btn">WhatsApp 💬</a>
-        <a href="tel:9096659788" class="btn" style="background:#d32f2f;">Call 📞</a>
+    <div style="text-align: center; margin-top: 25px;">
+        <a href="https://wa.me/919096659788?text=Namaste, mujhe LIC plans ki jankari chahiye" class="btn">WhatsApp Karein 💬</a>
+        <a href="tel:9096659788" class="btn" style="background:#d32f2f;">Direct Call Karein 📞</a>
     </div>
-
 </div>
 
 </body>
 </html>
-
